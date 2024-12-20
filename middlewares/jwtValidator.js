@@ -1,6 +1,7 @@
 require("dotenv").config();
 const jwt = require("jsonwebtoken");
 
+//Middleware para el JsonWebToken
 const validateJwt = async (req, res, next) => {
   try {
     const token = req.headers.authorization?.split(" ")[1];

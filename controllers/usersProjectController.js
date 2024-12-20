@@ -1,6 +1,5 @@
 const UsersProject = require('../services/usersProjectService');
 
-//traer miembros del proyecto
 const getUsersByProject = async (req,res) => {
   const {
     id
@@ -29,7 +28,6 @@ const getUsersByProject = async (req,res) => {
     }
   };
 
-  //Eliminar users del proyecto
   const removeUserFromProject = async (req,res) => {
     try {
       const projects = await UsersProject.removeUserFromProyect(req.body.id, req.body.id);
@@ -41,7 +39,6 @@ const getUsersByProject = async (req,res) => {
     }
   };
 
-  //Agregar Users al proyecto
   const addUser = async(req,res) => {
       try {
         const project = await UsersProject.addUser(req.body);
