@@ -16,7 +16,7 @@ Primero, clona el repositorio desde GitHub:
 
 (FRONTEND) https://github.com/Al-Yoon/TP-FINAL-API
 
-git clone
+git clone ...
 
 ## Configuración del Backend
 
