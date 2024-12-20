@@ -64,6 +64,7 @@ Esto iniciará el servidor del backend en el puerto 8080 (o el puerto especifica
 Luego de que se inicie el backend y se creen las tablas, abrir el archivo queriesPruebas e ir creando en MySQL algunas tablas dentro del servidor.
 
 Ahora con eso se pueden probar los endpoints en postman y/O acceder directamente a su documentación. El link es este:
+
 -https://documenter.getpostman.com/view/39459933/2sAYJ3EMdt#37a7fea8-5757-411d-b67d-a6e646b72ae5
 
 -https://easypays-5691.postman.co/workspace/be740b79-bf54-4938-b627-edc8d035f242/overview
