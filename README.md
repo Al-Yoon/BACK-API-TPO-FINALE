@@ -11,10 +11,8 @@ EasyPays es una aplicación web para gestionar y dividir gastos de manera sencil
 ## Clonar el Repositorio
 
 Primero, clona el repositorio desde GitHub:
-(BACKEND) (Clonar la rama santiBranch)
-https://github.com/loveonick/backendEasyPays
-(FRONTEND)
-https://github.com/Al-Yoon/EasyPays.git
+(BACKEND) https://github.com/Al-Yoon/BACK-API-TPO-FINALE
+(FRONTEND) https://github.com/Al-Yoon/TP-FINAL-API
 
 git clone
 
