@@ -1,4 +1,4 @@
-# EasyPays
+# EasyPays - Backend
 
 EasyPays es una aplicación web para gestionar y dividir gastos de manera sencilla y eficiente. Esta guía te ayudará a configurar y ejecutar el proyecto tanto para el backend como para el frontend.
 
@@ -11,30 +11,26 @@ EasyPays es una aplicación web para gestionar y dividir gastos de manera sencil
 ## Clonar el Repositorio
 
 Primero, clona el repositorio desde GitHub:
-(BACKEND) (Clonar la rama santiBranch)
-https://github.com/loveonick/backendEasyPays
 
-(FRONTEND)
-https://github.com/Al-Yoon/EasyPays.git
+(BACKEND) https://github.com/Al-Yoon/BACK-API-TPO-FINALE
 
-git clone
+(FRONTEND) https://github.com/Al-Yoon/TP-FINAL-API
+
+git clone ...
 
 ## Configuración del Backend
 
 ### 1. Navegar a la Carpeta del Backend
 
-
 sh cd backend
 
 ### 2. Instalar Dependencias
-
 
 sh npm install
 
 ### 3. Configurar Variables de Entorno
 
 Crea un archivo `.env` en la carpeta `backend` con las siguientes variables de entorno. Asegúrate de cambiar las configuraciones según tu servidor MySQL y tus claves API:
-
 
 env
 
@@ -57,11 +53,9 @@ PRIVATE_KEY=your_private_key
 
 Asegúrate de que tienes una base de datos MySQL corriendo y crea una base de datos llamada `easypays` (o el nombre que hayas especificado en tu archivo `.env`):
 
-
 sql CREATE DATABASE easypays;
 
 ### 5. Iniciar el Servidor del Backend
-
 
 sh npm start
 
@@ -69,9 +63,11 @@ Esto iniciará el servidor del backend en el puerto 8080 (o el puerto especifica
 
 Luego de que se inicie el backend y se creen las tablas, abrir el archivo queriesPruebas e ir creando en MySQL algunas tablas dentro del servidor.
 
-Ahora con eso se pueden probar los endpoints en postman. El link es este:
+Ahora con eso se pueden probar los endpoints en postman y/O acceder directamente a su documentación. El link es este:
 
-https://easypays-5691.postman.co/workspace/be740b79-bf54-4938-b627-edc8d035f242/overview
+-https://documenter.getpostman.com/view/39459933/2sAYJ3EMdt#37a7fea8-5757-411d-b67d-a6e646b72ae5
+
+-https://easypays-5691.postman.co/workspace/be740b79-bf54-4938-b627-edc8d035f242/overview
 
 ## Configuración del Frontend
 
@@ -79,16 +75,13 @@ https://easypays-5691.postman.co/workspace/be740b79-bf54-4938-b627-edc8d035f242/
 
 Abre una nueva terminal y navega a la carpeta del frontend:
 
-
 sh cd ../frontend
 
 ### 2. Instalar Dependencias
 
-
 sh npm install
 
 ### 3. Iniciar el Servidor de Desarrollo del Frontend
-
 
 sh npm start
 
